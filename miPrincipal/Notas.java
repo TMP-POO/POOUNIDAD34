@@ -20,5 +20,7 @@ abstract public class Notas {
     public void setAutor(String autor) {
         this.autor = autor;
     }
- 
+    public String toString(){
+        return "Titulo : "+titulo+"\nAutor: "+autor+"\n";
+    }
 }
